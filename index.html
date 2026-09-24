@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+   <title> daniel livescu's home page </title>
+</head>
+<body>
+<style>
+html,body { margin:0; padding: 0; }
+#main_block {
+  display: block; /* Useless, divs are display:block */
+  width: 100%;    /* Useless, display:block elements are width:100% by default */
+  height: 100%;   /* Fairly useless now, should take children's height */
+  font-size:0;    /* Force space between inline-block elements to be 0 */
+}
+#left_frame {
+  width: 20%;
+}
+#right_frame {
+  width: 80%;
+}
+#left_frame,#right_frame {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+</style>
+
+<div id="main_block">
+  <iframe id="left_frame" src="frames/menu.html" scrolling=no target="_self">textg</iframe>
+  <iframe id="right_frame" src="frames/cover.shtml" scrolling=yes name="cover"><h1> Iframes not supported</h1></iframe>
+</div>
+</body>
+</HTML>
+

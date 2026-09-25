@@ -11,8 +11,6 @@
 <style>
 html,body { margin:0; padding: 0; }
 #cover_block {
-  display: block; /* Useless, divs are display:block */
-  width: 100%;    /* Useless, display:block elements are width:100% by default */
   height: 100%;   /* Fairly useless now, should take children's height */
   font-size:0;    /* Force space between inline-block elements to be 0 */
 }
@@ -39,15 +37,15 @@ html,body { margin:0; padding: 0; }
 Dr. Livescu is a Fellow of the American Society of Mechanical Engineers (ASME),
 an Associate Fellow of the American Institute of Aeronautics and Astronautics 
 (AIAA), and the recipient of the 2017 Frank Harlow Distinguished Mentor Award. 
-He is a member of the Editorial Committee of the 
-<a href="https://www.annualreviews.org/journal/fluid"> Annual Review of Fluid Mechanics</a>, an Associate Editor for 
-<a href="https://arc.aiaa.org/journal/aiaaj"> AIAA Journal</a>, 
-and a member of the 
-<a href="http://www.cfd2030.com/index.html"> AIAA CFD Vision 2030 Integration and Outreach Committee</a>.  
-Dr. Livescu was part of the Executive Committee of the <a href="https://www.aps.org/units/dcomp"> APS Division of Computational Physics </a> (2020-2023) 
-and a member of the AIAA Fluid Dynamics Technical Committee (2020-2023) and 
-is also a past Associate Editor for <a href="https://fluidsengineering.asmedigitalcollection.asme.org/journal.aspx"> ASME Journal of Fluids Engineering</a>. 
-He  has been part of the organizing committee for the International Symposium on Combustion (<a href="www.combustionsymposia.org/2022/"> 2022 </a>, 
+He is an Associate Editor for <a href="https://arc.aiaa.org/journal/aiaaj"> AIAA Journal </a>, and a member of the 
+<a href="http://www.cfd2030.com/index.html"> AIAA CFD Vision 2030 Integration and Outreach Committee</a> and
+<a href="http://www.cfd2030.com/index.html"> AIAA Publication Committee </a>.  
+Dr. Livescu is past member of the Executive Committee of the <a href="https://www.aps.org/units/dcomp"> 
+APS Division of Computational Physics </a> (2020-2023), AIAA Fluid Dynamics Technical Committee (2020-2023), 
+</a> Editorial Committee of the <a href="https://www.annualreviews.org/journal/fluid"> 
+Annual Review of Fluid Mechanics</a>, is also a past Associate Editor for 
+<a href="https://fluidsengineering.asmedigitalcollection.asme.org/journal.aspx"> 
+ASME Journal of Fluids Engineering</a>. He  was been part of the organizing committee for the International Symposium on Combustion (<a href="www.combustionsymposia.org/2022/"> 2022 </a>, 
 <a href="www.combustionsymposia.org/2024/"> 2024 </a>), 
 as Turbulent Flames Colloquium Co-Chair.
 </p>
